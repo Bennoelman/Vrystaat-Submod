@@ -17,6 +17,14 @@ GFS_incompetent_administration_idea_desc:0 "There's no working around it, we got
  GFS_nikolaus_janaris_stahlhertz:0 "Nikolaus Janaris Stahlherz"
  GFS_friedrich_steiner:0 "Friedrich Steiner"
  GFS_friedrich_steiner_desc:0 "Placeholder"
+ GFS_bits_and_guns:0 "Bits and Guns"
+ GFS_bits_and_guns_desc:0 "Placeholder"
+ GFS_aldert_bakker:0 "Aldert Bakker"
+ GFS_aldert_bakker_desc:0  "Placeholder"
+ GFS_azaan_mossi:0 "Azaan Mossi"
+ GFS_azaan_mossi_desc:0 "Placeholder"
+ GFS_bertolt_bergen:0 "Bertolt Bergen"
+ GFS_bertolt_bergen_desc:0 "Placeholder"
 
 ### leader traits ###
 

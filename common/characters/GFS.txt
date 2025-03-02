@@ -77,7 +77,7 @@ characters={
 		name = GFS_friedrich_steiner
 		portraits = {
 			army = {
-				large="gfx/leaders/Asia/portrait_griffon_generic_land_8.dds"
+				large="gfx/leaders/GFS/Placeholder.tga"
 			}
 		}
 		corps_commander = {
@@ -87,6 +87,70 @@ characters={
 			planning_skill = 2
 			logistics_skill = 2
 			desc = GFS_friedrich_steiner_desc
+		}
+	}
+	GFS_bits_and_guns = {
+		name = GFS_bits_and_guns
+		portraits = {
+			army = {
+				large="gfx/leaders/GFS/portrait_pony_generic_land_5.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			desc = GFS_bits_and_guns_desc
+		}
+	}
+	GFS_aldert_bakker = {
+		name = GFS_aldert_bakker
+		portraits = {
+			army = {
+				large= "gfx/leaders/GFS/portrait_griffon_generic_land_12.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+			desc = GFS_aldert_bakker_desc
+		}
+	}
+	GFS_azaan_mossi = {
+		name = GFS_azaan_mossi 
+		portraits = {
+			army = {
+				large="gfx/leaders/GFS/army_zebra_9.tga"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			desc = GFS_azaan_mossi_desc
+		}
+	}
+	GFS_bertolt_bergen = {
+		name = GFS_bertolt_bergen
+		portraits = {
+			army = {
+				large="gfx/leaders/GFS/portrait_griffon_generic_land_8.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			desc = GFS_bertolt_bergen_desc
 		}
 	}
 }
