@@ -1,0 +1,54 @@
+﻿l_english:
+
+### Ideas ###
+
+GFS_proud_identity_idea:0 "Vrystaat Forever!"
+GFS_proud_identity_idea_desc:0 "We have settled and worked these lands since the start of 900s! We sown crops, raised cities, and planted trees that we just now may lay in the shade of. This is our home, forever."
+GFS_allsides_idea:0 "Surrounded by Enemies."
+GFS_allsides_idea_desc:0 "Vrystaat land has always provided for her people. Our Enemies are Many and Envious. They threaten our borders, and look for any weakness! These tribals have their tribes to go back to should they fail in war, or they may dissipate into the jungles or deserts knowing they could join up with another tribe. We do not have that Luxury. Our Ancestral Homeland is across the occean, and no tribe will accept a gryphon into their ranks. We have only Vrystaat, and nothing else."
+GFS_underdeveloped_industry_idea:0 "Underdeveloped Industry"
+GFS_underdeveloped_industry_idea_desc:0 "As a glorified colonial state we've never truly had a proper Industry as we've mostly been an outpost for adventurers and farmers and this has bitten us hard in the ass as even the tribals around us are starting to create modern-ish factories that are starting to outcompete us! We need to fix this or risk getting left in the dirt!"
+GFS_incompetent_administration_idea:0 "Incompetent Administration"
+GFS_incompetent_administration_idea_desc:0 "There's no working around it, we got some really incompetent and corrupt bureaucrats. They've been mismanaging the country's funds ever since the revolution rocked the homeland and left us without any support. Vrystaat was certainly the place where the least competent of Feathisa were dumped, and that's shown itself time and time again for the last couple decades. Despite their incompetence, it's damn near impossible to get rid of them because they all defend each other, turning the entire government against whoever dares try to replace a single desk clerk."
+
+
+### Character Name ###
+
+ GFS_nikolaus_janaris_stahlhertz:0 "Nikolaus Janaris Stahlherz"
+ GFS_friedrich_steiner:0 "Friedrich Steiner"
+ GFS_friedrich_steiner_desc:0 "Placeholder"
+
+### leader traits ###
+
+ a_soldier_without_borders:0 "A soldier without borders"
+ the_griffon_who_sold_zebrica:0 "The griffon who sold Zebrica"
+
+
+### Party Names ###
+
+ GFS_fascism_party_long:0 "Griffonische Militär & Kolonisierungs Administration"
+ GFS_fascism_party:0 "GMKA"
+ GFS_neutrality_party_long:0 "Verenigde Griffoniese koloniale administrasie"
+ GFS_neutrality_party:0 "VGKA"
+ GFS_democratic_party_long:0 "Party vir vooruitgang en eenheid"
+ GFS_democratic_party:0 "PVVEE"
+ GFS_communism_party_long:0 "Naturelle verenig front"
+ GFS_communism_party:0 "NVF"
+
+ ### Nation Tag ###
+
+ GFS:0 "South Zebrica"
+ GFS_DEF:0 "South Zebrica"
+ GFS_ADJ:0 "South Zebrican"
+ GFS_fascism:0 "Süd Zebrikanische Kolonisierungs Administration"
+ GFS_fascism_DEF:0 "the Süd Zebrikanische Kolonisierungs Administration"
+ GFS_democratic:0 "Zuid-Zebrikaansche Vrystaat"
+ GFS_democratic_DEF:0 "the Zuid-Zebrikaansche Vrystaat"
+ GFS_neutrality:0 "Zuid-Zebrikaansche Vrystaat"
+ GFS_neutrality_DEF:0 "the Zuid-Zebrikaansche Vrystaat"
+ GFS_communism:0 "Zuid-Zebrikaansche Volksrepubliek"
+ GFS_communism_DEF:0 "the Zuid-Zebrikaansche Volksrepubliek"
+ GFS_fascism_ADJ:0 "Vrystaat"
+ GFS_democratic_ADJ:0 "Vrystaat"
+ GFS_neutrality_ADJ:0 "Vrystaat"
+ GFS_communism_ADJ:0 "Volksrepublikein"

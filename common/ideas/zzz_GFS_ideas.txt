@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+		GFS_proud_identity_idea = {
+			picture = generic_volunteer_expedition_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				surrender_limit = 0.2
+				political_power_gain = 0.5
+			}
+		}
+	}
+
+	country = {
+		GFS_allsides_idea = {
+			picture = FRA_scw_intervention_nationalists_focus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		GFS_underdeveloped_industry_idea = {
+			picture = IRE_heavy_industry
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.08
+				production_speed_buildings_factor = -0.08
+				local_resources_factor = -0.12
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		GFS_incompetent_administration_idea = {
+			picture = STW_resistance
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.75
+			}
+		}
+	}
+
+
+
+
+}

@@ -1,0 +1,92 @@
+characters={
+	GFS_atlas_steyn={
+		name="GFS_atlas_steyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/GFS/smuts_griff.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GFS_nikolaus={
+		name="GFS_nikolaus_janaris_stahlhertz"
+		portraits={
+			civilian={
+				large="gfx/leaders/GFS/nikolaus.tga"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ warmonger inexperienced_imperialist a_soldier_without_borders the_griffon_who_sold_zebrica }
+			desc = GFS_nikolaus_desc
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ griffon_race_trait politically_connected commando camouflage_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			desc = GFS_nikolaus_desc
+		}
+	}
+	GFS_eurus_gardiner={
+		name=GFS_eurus_gardiner
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/portrait_griffon_generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GFS_anesu_goldleaf = {
+		name = GFS_anesu_goldleaf
+		portraits = {
+			army = {
+				large="gfx/leaders/GFS/GFS_anesu_goldleaf.tga"
+				small="gfx/interface/ideas/Advisors/GFS/GFS_anesu_goldleaf.tga"
+			}
+		}
+		corps_commander = {
+			traits = { pony_race_trait desert_fox panzer_leader commando }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			desc = GFS_anesu_goldleaf_desc
+		}
+	}
+	GFS_friedrich_steiner = {
+		name = GFS_friedrich_steiner
+		portraits = {
+			army = {
+				large="gfx/leaders/Asia/portrait_griffon_generic_land_8.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			desc = GFS_friedrich_steiner_desc
+		}
+	}
+}
