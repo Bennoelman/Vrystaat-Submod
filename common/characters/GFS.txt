@@ -81,7 +81,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { griffon_race_trait }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
@@ -98,7 +97,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { pony_race_trait }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -115,7 +113,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { griffon_race_trait }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 4
@@ -132,7 +129,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { zebra_race_trait }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -149,7 +145,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { griffon_race_trait }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2

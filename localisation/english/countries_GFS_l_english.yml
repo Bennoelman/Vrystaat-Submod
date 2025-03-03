@@ -4,12 +4,18 @@
 
 GFS_proud_identity_idea:0 "Vrystaat Forever!"
 GFS_proud_identity_idea_desc:0 "We have settled and worked these lands since the start of 900s! We sown crops, raised cities, and planted trees that we just now may lay in the shade of. This is our home, forever."
-GFS_allsides_idea:0 "Surrounded by Enemies."
+GFS_allsides_idea:0 "Surrounded by Enemies"
 GFS_allsides_idea_desc:0 "Vrystaat land has always provided for her people. Our Enemies are Many and Envious. They threaten our borders, and look for any weakness! These tribals have their tribes to go back to should they fail in war, or they may dissipate into the jungles or deserts knowing they could join up with another tribe. We do not have that Luxury. Our Ancestral Homeland is across the occean, and no tribe will accept a gryphon into their ranks. We have only Vrystaat, and nothing else."
 GFS_underdeveloped_industry_idea:0 "Underdeveloped Industry"
 GFS_underdeveloped_industry_idea_desc:0 "As a glorified colonial state we've never truly had a proper Industry as we've mostly been an outpost for adventurers and farmers and this has bitten us hard in the ass as even the tribals around us are starting to create modern-ish factories that are starting to outcompete us! We need to fix this or risk getting left in the dirt!"
 GFS_incompetent_administration_idea:0 "Incompetent Administration"
 GFS_incompetent_administration_idea_desc:0 "There's no working around it, we got some really incompetent and corrupt bureaucrats. They've been mismanaging the country's funds ever since the revolution rocked the homeland and left us without any support. Vrystaat was certainly the place where the least competent of Feathisa were dumped, and that's shown itself time and time again for the last couple decades. Despite their incompetence, it's damn near impossible to get rid of them because they all defend each other, turning the entire government against whoever dares try to replace a single desk clerk."
+GFS_underdeveloped_industry_idea2:0 "Developing Industry"
+GFS_underdeveloped_industry_idea2_desc:0 "Thanks to our hard work, our nation is slowly dragging itself into becoming a properly industrialized state! There is still much to be done, but we've shown large improvements regardless!"
+GFS_rags_riches_idea:0 "From Rags to Riches"
+GFS_rags_riches_idea_desc:0 "Thanks to the sudden rise of well paying jobs, our population has seen itself grow richer then ever! We are the new Jewel of South Zebrica, perhaps greater even then that Rumored Golden City hidden somewhere in the jungle."
+GFS_tourists_idea:0 "Burgeoning Tourist Industry"
+GFS_tourists_idea_desc:0 "'Come visit the Beautiful hills of Zimpopo, where one may indulge themselves in the sights of the rich culture of the Zimpopo people. Visit the beautiful castle of Beakenburg, the furthest Gryphon designed fortification in Zebrica. Take in the Sea Air and water of wonderous Duifenberg and enjoy the culture of the local Vrystaater gryphons. Vrystaat awaits, for you.' Thanks to our attempts at attracting tourists, we've seen a notable amount of money enter our treasury, ready to be used for whatever we need!"
 
 
 ### Character Name ###

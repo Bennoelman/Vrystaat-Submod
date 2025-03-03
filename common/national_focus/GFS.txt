@@ -1,0 +1,581 @@
+focus_tree = {
+	id = Vrystaat_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GFS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 1800 }
+
+	shared_focus = GFS_industrial_review
+}
+
+shared_focus = {
+	id = GFS_industrial_review
+	icon = GFX_focus_generic_treaty
+	cost = 4.40
+	ai_will_do = { factor = 100 }
+	x = 18
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_industrial_review"
+		912 = {
+			add_extra_state_shared_building_slots = 1
+		}
+		911 = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = GFS_plow_factory
+	icon = GFX_goal_generic_production
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 17
+	y = 1
+	prerequisite = {
+			focus = GFS_industrial_review
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_plow_factory"
+		912 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 2
+				}
+			}
+	}
+}
+
+shared_focus = {
+	id = GFS_urbanize
+	icon = GFX_goal_generic_position_armies
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 16
+	y = 2
+	prerequisite = {
+			focus = GFS_plow_factory
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_urbanize"
+	}
+}
+
+shared_focus = {
+	id = GFS_invite_investors
+	icon = GFX_goal_schemeing_bankers
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 15
+	y = 3
+	prerequisite = {
+			focus = GFS_urbanize
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_invite_investors"
+	}
+}
+
+shared_focus = {
+	id = GFS_support_domestic
+	icon = GFX_DAH_Topke
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 16
+	y = 4
+	prerequisite = {
+			focus = GFS_invite_investors
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_support_domestic"
+		914 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+		913 = {
+		add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = GFS_support_foreign
+	icon = GFX_goal_new_treaty
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 14
+	y = 4
+	prerequisite = {
+			focus = GFS_invite_investors
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_support_foreign"
+		911 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+	}
+}
+
+shared_focus = {
+	id = GFS_heavy_industry
+	icon = GFX_goal_construction_engineering
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 15
+	y = 5
+	prerequisite = {
+			focus = GFS_support_domestic
+		}
+	prerequisite = {
+			focus = GFS_support_foreign
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_heavy_industry"
+		915 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+		912 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 2
+				}
+			}
+		914 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+		if = {
+			limit = {
+				has_idea = GFS_underdeveloped_industry_idea
+			}
+			swap_ideas = {
+			remove_idea = GFS_GFS_underdeveloped_industry_idea
+			add_idea = GFS_GFS_underdeveloped_industry_idea2
+			}
+		}
+
+		if = {
+			limit = {
+				has_idea = GFS_underdeveloped_industry_idea2
+			}
+			remove_ideas = GFS_underdeveloped_industry_idea2
+		}
+		
+	}
+}
+
+shared_focus = {
+	id = GFS_rags_to_riches
+	icon = GFX_goal_gold_up
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 16
+	y = 6
+	prerequisite = {
+			focus = GFS_heavy_industry
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_rags_to_riches"
+		add_ideas = GFS_rags_riches_idea
+		
+	}
+}
+
+shared_focus = {
+	id = GFS_import_minerals
+	icon = GFX_goal_bag_of_money
+	cost = 4.40
+	ai_will_do = { factor = 100 }
+	x = 18
+	y = 2
+	prerequisite = {
+			focus = GFS_industrial_review
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_import_minerals"
+		913 = {
+			add_resource = {
+				type = tungsten
+				amount = 4
+			}
+			add_resource = {
+				type = steel
+				amount = 2
+			}
+		}
+		
+	}
+}
+
+shared_focus = {
+	id = GFS_connect_roads
+	icon = GFX_goal_construction_engineering
+	cost = 4.40
+	ai_will_do = { factor = 100 }
+	x = 17
+	y = 3
+	prerequisite = {
+			focus = GFS_import_minerals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_connect_roads"
+		911 = {
+			add_extra_state_shared_building_slots = 1
+		}
+		
+	}
+}
+
+shared_focus = {
+	id = GFS_fight_illiteracy
+	icon = GFX_goal_double_research
+	cost = 4.40
+	ai_will_do = { factor = 125 }
+	x = 19
+	y = 3
+	prerequisite = {
+			focus = GFS_import_minerals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_fight_illiteracy"
+		decrease_illiteracy = yes
+	}
+}
+
+shared_focus = {
+	id = GFS_uncover_materials
+	icon = GFX_focus_indy_excavations
+	cost = 4.40
+	ai_will_do = { factor = 100 }
+	x = 18
+	y = 4
+	prerequisite = {
+			focus = GFS_connect_roads
+	}
+	prerequisite = {
+			focus = GFS_fight_illiteracy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_fight_illiteracy"
+		915 = {
+			add_resource = {
+				type = tungsten
+				amount = 7
+			}
+			add_resource = {
+				type = steel
+				amount = 9
+			}
+		}
+		914 = {
+			add_resource = {
+				type = tungsten
+				amount = 1
+			}
+			add_resource = {
+				type = steel
+				amount = 3
+			}
+		}
+		913 = {
+			add_resource = {
+				type = tungsten
+				amount = 3
+			}
+			add_resource = {
+				type = steel
+				amount = 3
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = GFS_tourist_industry
+	icon = GFX_goal_foreign_diplomacy
+	cost = 4.40
+	ai_will_do = { factor = 100 }
+	x = 18
+	y = 5
+	prerequisite = {
+			focus = GFS_uncover_materials
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_tourist_industry"
+		add_ideas = GFS_tourists_idea
+	}
+}
+
+shared_focus = {
+	id = GFS_military_contracts
+	icon = GFX_goal_national_arsenal
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 19
+	y = 1
+	prerequisite = {
+			focus = GFS_industrial_review
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_military_contracts"
+
+	}
+}
+
+shared_focus = {
+	id = GFS_bakeries_to_gunsmiths
+	icon = GFX_goal_munitions_factories
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 20
+	y = 2
+	prerequisite = {
+			focus = GFS_military_contracts
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_bakeries_to_gunsmiths"
+		912 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 2
+				}
+			}
+	}
+}
+
+shared_focus = {
+	id = GFS_import_arty
+	icon = GFX_goal_generic_army_artillery
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 21
+	y = 3
+	prerequisite = {
+			focus = GFS_bakeries_to_gunsmiths
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_import_arty"
+		add_equipment_to_stockpile = { type = artillery_equipment amount = 150 producer = FEA }
+		add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = GRI }
+		if = {
+			limit = {
+				has_dlc = "Arms Against Tyranny"
+			}
+			add_equipment_subsidy = {
+				cic = 500
+				equipment_type = infantry_equipment
+				seller_tags = { FEA GRI }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = GFS_panzer_project
+	icon = GFX_goal_generic_army_tanks
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 20
+	y = 4
+	prerequisite = {
+			focus = GFS_import_arty
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_panzer_project"
+		add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_light_armor
+			}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis
+			amount = 100
+			producer = GRI
+		}
+		add_equipment_subsidy = {
+				cic = 1000
+				equipment_type = light_tank_chassis
+				seller_tags = { GRI }
+			}
+	}
+}
+
+shared_focus = {
+	id = GFS_naval_production
+	icon = GFX_goal_generic_construct_naval_dockyard
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 22
+	y = 4
+	prerequisite = {
+			focus = GFS_import_arty
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_naval_production"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 0.5
+			uses = 2
+			category = naval_equipment
+		}
+		911 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					instant_build = yes
+					level = 2
+				}
+			}
+	}
+}
+
+shared_focus = {
+	id = GFS_miltary_raise
+	icon = GFX_goal_industry_air
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 21
+	y = 5
+	prerequisite = {
+			focus = GFS_naval_production
+	}
+	prerequisite = {
+			focus = GFS_panzer_project
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_miltary_raise"
+		911 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 1
+				}
+			}
+		914 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 1
+				}
+			}
+		913 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 1
+				}
+			}
+		if = {
+			limit = {
+				has_idea = GFS_underdeveloped_industry_idea
+			}
+			swap_ideas = {
+			remove_idea = GFS_GFS_underdeveloped_industry_idea
+			add_idea = GFS_GFS_underdeveloped_industry_idea2
+			}
+		}
+
+		if = {
+			limit = {
+				has_idea = GFS_underdeveloped_industry_idea2
+			}
+			remove_ideas = GFS_underdeveloped_industry_idea2
+		}
+	}
+}
+
+shared_focus = {
+	id = GFS_everygriffgun
+	icon = GFX_focus_ETH_freedom_at_gunpoint
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 20
+	y = 6
+	prerequisite = {
+			focus = GFS_miltary_raise
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_everygriffgun"
+		add_ideas = GFS_guns_idea
+	}
+}
+
+shared_focus = {
+	id = GFS_university
+	icon = GFX_goal_KTG_Certificate_Focus
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 18
+	y = 7
+	prerequisite = {
+			focus = GFS_everygriffgun
+	}
+	prerequisite = {
+			focus = GFS_tourist_industry
+	}
+	prerequisite = {
+			focus = GFS_rags_to_riches
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_university"
+		decrease_illiteracy = yes
+		add_research_slot = 1
+	}
+}
+
+shared_focus = {
+	id = GFS_efficent_strong
+	icon = GFX_goal_GRI_industryzone
+	cost = 4.40
+	ai_will_do = { factor = 90 }
+	x = 18
+	y = 8
+	prerequisite = {
+			focus = GFS_university
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GFS_efficent_strong"
+		add_ideas = GFS_efficent_industry_idea
+	}
+}
