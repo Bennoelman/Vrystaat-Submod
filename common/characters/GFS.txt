@@ -77,7 +77,7 @@ characters={
 		name = GFS_friedrich_steiner
 		portraits = {
 			army = {
-				large="gfx/leaders/GFS/Placeholder.tga"
+				large="gfx/leaders/GFS/placeholder.tga"
 			}
 		}
 		corps_commander = {
