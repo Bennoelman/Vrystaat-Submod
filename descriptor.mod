@@ -7,5 +7,5 @@ tags={
 }
 name="Nikolaus in the Free City"
 picture="thumbnail.png"
-supported_version="1.15.4"
+supported_version="1.16.0"
 remote_file_id="3437046287"
