@@ -22,17 +22,17 @@ GFS_tourists_idea_desc:0 "'Come visit the Beautiful hills of Zimpopo, where one 
 
  GFS_nikolaus_janaris_stahlhertz:0 "Nikolaus Janaris Stahlherz"
  GFS_arcanius_von_ruess:0 "Arcanius Von Ruess"
- GFS_arcanius_von_ruess_desc:0 "§YBorn:§! December 3rd 948 ALB"
+ GFS_arcanius_von_ruess_desc:0 "§YBorn§!: December 3rd 948 ALB\n\n§YRank§!: Major General\n\n§YBiography§!:"
  GFS_guns_and_bullets:0 "Guns and Bullets"
- GFS_guns_and_bullets_desc:0 "Placeholder"
+ GFS_guns_and_bullets_desc:0 "§YBorn§!: April 12th 973 ALB\n\n§YRank§!: Major\n\n§YBiography§!:"
  GFS_ethan:0 "Eitel Veke Litte Der Kerne"
- GFS_ethan_desc:0  "Placeholder"
+ GFS_ethan_desc:0  "§YBorn§!: February 28th 969 ALB\n\n§YRank§!: Captain\n\n§YBiography§!:"
  GFS_black_jack:0 "Joey “Black Jack” Samby"
- GFS_black_jack_desc:0 "Placeholder"
+ GFS_black_jack_desc:0 "§YBorn§!: August 3rd 954 ALB\n\n§YRank§!: General\n\n§YBiography§!:"
  GFS_philippe_van_fleet:0 "Philippe Van Fleet"
- GFS_philippe_van_fleet_desc:0 "Placeholder"
+ GFS_philippe_van_fleet_desc:0 "§YBorn§!: July 5th 960 ALB\n\n§YRank§!: Colonel\n\n§Biography§!:"
  GFS_macdonald_millet:0 "Macdonald Millet"
- GFS_macdonald_millet_desc:0 "Placeholder"
+ GFS_macdonald_millet_desc:0 "§YBorn§!: 966 ALB\n\n§YRank§!: General\n\n§Biography§!:"
 
 ### leader traits ###
 
