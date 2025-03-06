@@ -73,8 +73,8 @@ characters={
 			desc = GFS_anesu_goldleaf_desc
 		}
 	}
-	GFS_arcanius_von_ruess = {
-		name = GFS_arcanius_von_ruess
+	GFS_philippe_van_fleet = {
+		name = GFS_philippe_van_fleet
 		portraits = {
 			army = {
 				large="gfx/leaders/GFS/commanders_4.tga"
@@ -87,7 +87,7 @@ characters={
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 2
-			desc = GFS_arcanius_von_ruess_desc
+			desc = GFS_philippe_van_fleet_desc
 		}
 	}
 	GFS_guns_and_bullets = {
@@ -141,11 +141,11 @@ characters={
 			desc = GFS_black_jack_desc
 		}
 	}
-	GFS_philippe_van_fleet = {
-		name = GFS_philippe_van_fleet
+	GFS_arcanius_von_ruess = {
+		name = GFS_arcanius_von_ruess
 		portraits = {
 			army = {
-				large="gfx/leaders/GFS/commanders_3.tga"
+				large="gfx/leaders/GFS/commanders_5.tga"
 			}
 		}
 		corps_commander = {
@@ -155,14 +155,14 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 1
-			desc = GFS_philippe_van_fleet_desc
+			desc = GFS_arcanius_von_ruess_desc
 		}
 	}
 	GFS_macdonald_millet = {
 		name = GFS_macdonald_millet
 		portraits = {
 			army = {
-				large="gfx/leaders/GFS/commanders_5.tga"
+				large="gfx/leaders/GFS/commanders_3.tga"
 			}
 		}
 		corps_commander = {
