@@ -141,11 +141,12 @@ recruit_character = GFS_atlas_steyn
 recruit_character = GFS_eurus_gardiner
 recruit_character = GFS_nikolaus
 recruit_character = GFS_anesu_goldleaf
-recruit_character = GFS_friedrich_steiner
-recruit_character = GFS_bits_and_guns
-recruit_character = GFS_aldert_bakker
-recruit_character = GFS_azaan_mossi
-recruit_character = GFS_bertolt_bergen
+recruit_character = GFS_arcanius_von_ruess
+recruit_character = GFS_guns_and_bullets
+recruit_character = GFS_ethan
+recruit_character = GFS_black_jack
+recruit_character = GFS_philippe_van_fleet
+recruit_character = GFS_macdonald_millet
 
 set_rule = {
 	can_generate_female_aces = yes
