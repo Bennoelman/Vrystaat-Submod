@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		GFS_proud_identity_idea = {
-			picture = generic_volunteer_expedition_bonus
+			picture = proud_identity
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.05
@@ -14,7 +14,7 @@ ideas = {
 
 	country = {
 		GFS_allsides_idea = {
-			picture = FRA_scw_intervention_nationalists_focus
+			picture = enemies_side
 			removal_cost = -1
 			modifier = {
 				war_support_factor = 0.1
@@ -25,7 +25,7 @@ ideas = {
 
 	country = {
 		GFS_underdeveloped_industry_idea = {
-			picture = IRE_heavy_industry
+			picture = underdeveloped_industry
 			removal_cost = -1
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.08
@@ -38,7 +38,7 @@ ideas = {
 
 	country = {
 		GFS_underdeveloped_industry_idea2 = {
-			picture = IRE_heavy_industry
+			picture = underdeveloped_industry
 			removal_cost = -1
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.04
@@ -92,7 +92,7 @@ ideas = {
 
 	country = {
 		GFS_incompetent_administration_idea = {
-			picture = STW_resistance
+			picture = incompetent_administration
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.1

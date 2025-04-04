@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_proud_identity"
+		texturefile = "gfx\interface\ideas\A_proud_identity.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_enemies_side"
+		texturefile = "gfx\interface\ideas\enemies_on_all_sides.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_incompetent_administration"
+		texturefile = "gfx\interface\ideas\Incompetent_Administration.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_workers_strike"
+		texturefile = "gfx\interface\ideas\Memories_of_the_Worker’s_Strike.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_underdeveloped_industry"
+		texturefile = "gfx\interface\ideas\Underdeveloped_Industry.tga"
+	}
+}
