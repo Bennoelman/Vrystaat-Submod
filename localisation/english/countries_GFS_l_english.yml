@@ -17,6 +17,9 @@ GFS_rags_riches_idea_desc:0 "Thanks to the sudden rise of well paying jobs, our 
 GFS_tourists_idea:0 "Burgeoning Tourist Industry"
 GFS_tourists_idea_desc:0 "'Come visit the Beautiful hills of Zimpopo, where one may indulge themselves in the sights of the rich culture of the Zimpopo people. Visit the beautiful castle of Beakenburg, the furthest Gryphon designed fortification in Zebrica. Take in the Sea Air and water of wonderous Duifenberg and enjoy the culture of the local Vrystaater gryphons. Vrystaat awaits, for you.' Thanks to our attempts at attracting tourists, we've seen a notable amount of money enter our treasury, ready to be used for whatever we need!"
 
+GFS_native_resistance_idea:0 "Native Resistance"
+GFS_native_resistance_idea_desc:0 "The majority of the natives seem to not like our rule over the lands."
+
 
 ### Character Name ###
 
@@ -68,3 +71,13 @@ GFS_tourists_idea_desc:0 "'Come visit the Beautiful hills of Zimpopo, where one 
  GFS_democratic_ADJ:0 "Vrystaat"
  GFS_neutrality_ADJ:0 "Vrystaat"
  GFS_communism_ADJ:0 "Volksrepublikein"
+
+ ### FOCUS NAMES AND DESCRIPTIONS ###
+
+
+ ### COUNTRY EVENTS AND DESCRIPTIONS ###
+
+gfs_event.1:0 "A"
+gfs_event.1.t:0 "A"
+gfs_event.1.d:0 "d"
+gfs_event.1.a:0 "d"

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = Vrystaat_focus
+	id = Vrystaat_focus_starting
 
 	country = {
 		factor = 0
@@ -12,8 +12,141 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 550 y = 1800 }
 
-	shared_focus = GFS_industrial_review
+	shared_focus = GFS_starting_crisis
 }
+
+## Starting Focus tree ##
+
+shared_focus = {
+	id = GFS_starting_crisis
+	icon = GFX_focus_generic_soviet_politics
+	x = 6
+	y = 0
+	cost = 1
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	available = {
+		has_government = neutrality
+		has_war = no
+	}
+
+	bypass = {
+
+	}
+
+	completion_reward = {
+		country_event = gfs_event.1
+	}
+}
+
+shared_focus = {
+	id = GFS_debate_in_admin
+	# icon = INSERT
+	relative_position_id = GFS_starting_crisis
+	x = 0
+	y = 1
+	cost = 4
+	prerequisite = { focus = GFS_starting_crisis }
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	available = {
+		has_government = neutrality
+		has_war = no
+	}
+
+	bypass = {
+
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: GFS_debate_in_admin"
+		country_event = gfs_event.2
+	}
+}
+
+shared_focus = {
+	id = GFS_focus_internal_problems
+	# icon = INSERT
+	relative_position_id = GFS_starting_crisis
+	x = -2
+	y = 2
+	cost = 2
+	prerequisite = { focus = GFS_debate_in_admin }
+
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	available = {
+		always = no
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: GFS_debate_in_admin"
+		#country_event = ADD EVENT HERE	
+	}
+}
+
+shared_focus = {
+	id = GFS_focus_internal_problems
+	# icon = INSERT
+	relative_position_id = GFS_starting_crisis
+	x = -2
+	y = 2
+	cost = 0
+	prerequisite = { focus = GFS_debate_in_admin }
+	mutually_exclusive = {focus = GFS_assist_talonsvaal}
+
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	available = {
+		always = no
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: GFS_debate_in_admin"
+		#country_event = ADD EVENT HERE	
+	}
+}
+
+shared_focus = {
+	id = GFS_assist_talonsvaal
+	# icon = INSERT
+	relative_position_id = GFS_starting_crisis
+	x = 2
+	y = 2
+	cost = 0
+	prerequisite = { focus = GFS_debate_in_admin }
+	mutually_exclusive = {focus = GFS_focus_internal_problems}
+
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	available = {
+		has_government = neutrality
+		has_war = no
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: GFS_debate_in_admin"
+		#country_event = ADD EVENT HERE	
+	}
+}
+
+#Industrial Focus Tree
+
 
 shared_focus = {
 	id = GFS_industrial_review

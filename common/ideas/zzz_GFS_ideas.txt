@@ -101,7 +101,15 @@ ideas = {
 		}
 	}
 
-
+	country = {
+		GFS_native_resistance_idea = {
+			picture = zebra_slaves
+			removal_cost = -1
+			modifier = {
+				recruitable_population = -0.7
+			}
+		}
+	}
 
 
 }

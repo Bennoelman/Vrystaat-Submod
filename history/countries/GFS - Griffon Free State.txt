@@ -119,6 +119,7 @@ add_ideas = {
 	GFS_allsides_idea
 	GFS_underdeveloped_industry_idea
 	GFS_incompetent_administration_idea
+	GFS_native_resistance_idea
 }
 
 set_stability = 0.55
