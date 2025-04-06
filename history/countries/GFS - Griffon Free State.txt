@@ -120,6 +120,7 @@ add_ideas = {
 	GFS_underdeveloped_industry_idea
 	GFS_incompetent_administration_idea
 	GFS_native_resistance_idea
+	GFS_remember_worker_strike_idea
 }
 
 set_stability = 0.55

@@ -106,10 +106,20 @@ ideas = {
 			picture = zebra_slaves
 			removal_cost = -1
 			modifier = {
-				recruitable_population = -0.7
+				conscription_factor = -0.7
 			}
 		}
 	}
 
+	country = {
+		GFS_remember_worker_strike_idea = {
+			picture = workers_strike
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.01
+				neutrality_drift = -0.01
+			}
+		}
+	}	
 
 }
